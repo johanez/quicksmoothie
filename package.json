@@ -1,7 +1,7 @@
 {
-  "name": "phoneremote",
+  "name": "quicksmoothie",
   "version": "1.0.0",
-  "description": "Using your smartphone accelerator as a remote control for reveal.js, based on a tutorialzine experiment",
+  "description": "Plot smartphone acclerometer and gyrometer",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "keywords": [
     "devicemotion",
-    "tutorialzine",
+    "live plot",
     "remote",
     "control",
     "mobile",
