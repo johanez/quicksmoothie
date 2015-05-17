@@ -36,7 +36,7 @@ gyro.startTracking(function(o) {
 // }, 500);
 
  function createTimeline() {
-   var chart = new SmoothieChart({millisPerPixel:50});
+   var chart = new SmoothieChart({millisPerPixel:10});
    chart.addTimeSeries(tsx, { 	strokeStyle: 'rgba(0, 255, 0, 1)', 
    							 	fillStyle: 'rgba(0, 255, 0, 0.2)', 
    							 	lineWidth: 2 });
