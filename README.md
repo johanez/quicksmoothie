@@ -19,9 +19,7 @@ Device with accelerometer sends sensor data to socket server, who broadcasts to 
 learn what signals from accelerometer cna be used for controls.
 
 ##TODO
-- add gyro data
 - better delay / timing
 - legend
-- stream sensors data with socket.io
 
 
