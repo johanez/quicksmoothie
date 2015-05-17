@@ -1,5 +1,11 @@
 # quicksmoothie
 Plot device motion and gyro live using [smoothie charts](http://smoothiecharts.org/) and [gyro.js](https://github.com/tomgco/gyro.js).
+
+## Try it
+Cloen repo and 
+- copy public/ to mobile, open index.html for charts on phone
+- run app.js with node (npm install first) and stream to server.
+
 ## Packages:
 - node.js
 - express 
