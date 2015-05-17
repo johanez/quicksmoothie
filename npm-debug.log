@@ -1,0 +1,139 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'qr-image' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'qr-image', null ]
+6 verbose cache add name=undefined spec="qr-image" args=["qr-image",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'qr-image',
+7 verbose parsed url   path: 'qr-image',
+7 verbose parsed url   href: 'qr-image' }
+8 silly lockFile ba07d869-qr-image qr-image
+9 verbose lock qr-image /home/jo/.npm/ba07d869-qr-image.lock
+10 silly lockFile ba07d869-qr-image qr-image
+11 silly lockFile ba07d869-qr-image qr-image
+12 verbose addNamed [ 'qr-image', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 63d36f7c-qr-image qr-image@
+15 verbose lock qr-image@ /home/jo/.npm/63d36f7c-qr-image.lock
+16 silly addNameRange { name: 'qr-image', range: '*', hasData: false }
+17 verbose request where is /qr-image
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 7a18fbf588c73d50
+20 verbose url raw /qr-image
+21 verbose url resolving [ 'https://registry.npmjs.org/', './qr-image' ]
+22 verbose url resolved https://registry.npmjs.org/qr-image
+23 verbose request where is https://registry.npmjs.org/qr-image
+24 info trying registry request attempt 1 at 16:28:38
+25 verbose etag "6BO4P7JT612PAR8S7KYABILVK"
+26 http GET https://registry.npmjs.org/qr-image
+27 http 304 https://registry.npmjs.org/qr-image
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Sat, 16 May 2015 14:28:38 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"6BO4P7JT612PAR8S7KYABILVK"',
+28 silly registry.get     age: '0',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-ams4148-AMS',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1431786518.522842,VS0,VE169',
+28 silly registry.get     vary: 'Accept' } ]
+29 verbose etag https://registry.npmjs.org/qr-image from cache
+30 silly addNameRange number 2 { name: 'qr-image', range: '*', hasData: true }
+31 silly addNameRange versions [ 'qr-image',
+31 silly addNameRange   [ '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.1.0',
+31 silly addNameRange     '1.2.0',
+31 silly addNameRange     '1.2.1',
+31 silly addNameRange     '2.0.0',
+31 silly addNameRange     '3.0.0',
+31 silly addNameRange     '3.0.1',
+31 silly addNameRange     '3.0.2',
+31 silly addNameRange     '3.1.0' ] ]
+32 verbose addNamed [ 'qr-image', '3.1.0' ]
+33 verbose addNamed [ '3.1.0', '3.1.0' ]
+34 silly lockFile 925d98a9-qr-image-3-1-0 qr-image@3.1.0
+35 verbose lock qr-image@3.1.0 /home/jo/.npm/925d98a9-qr-image-3-1-0.lock
+36 silly lockFile 925d98a9-qr-image-3-1-0 qr-image@3.1.0
+37 silly lockFile 925d98a9-qr-image-3-1-0 qr-image@3.1.0
+38 silly lockFile 63d36f7c-qr-image qr-image@
+39 silly lockFile 63d36f7c-qr-image qr-image@
+40 silly resolved [ { name: 'qr-image',
+40 silly resolved     version: '3.1.0',
+40 silly resolved     description: 'QR Code generator (png, svg, pdf, eps)',
+40 silly resolved     homepage: 'https://github.com/alexeyten/qr-image',
+40 silly resolved     keywords: [ 'qrcode', 'qr code', 'qr', 'png', 'svg', 'image' ],
+40 silly resolved     author: { name: 'Alexey Ten', url: 'http://git.io/alexeyten' },
+40 silly resolved     license: 'MIT',
+40 silly resolved     repository:
+40 silly resolved      { type: 'git',
+40 silly resolved        url: 'https://github.com/alexeyten/qr-image.git' },
+40 silly resolved     bugs: { url: 'https://github.com/alexeyten/qr-image/issues' },
+40 silly resolved     main: './lib/qr.js',
+40 silly resolved     scripts: { test: './tests/test.js' },
+40 silly resolved     files: [ 'lib', 'LICENSE' ],
+40 silly resolved     optionalDependencies: { pako: '^0.2.5' },
+40 silly resolved     gitHead: '8579d456600c803bf194f5d9bc9f9dc863bb5dd1',
+40 silly resolved     dependencies: { pako: '^0.2.5' },
+40 silly resolved     _id: 'qr-image@3.1.0',
+40 silly resolved     _shasum: 'a7f722ce7d11afb73696834ade404056bb52f48e',
+40 silly resolved     _from: 'qr-image@',
+40 silly resolved     _npmVersion: '1.4.28',
+40 silly resolved     _npmUser: { name: 'alexeyten', email: 'alexeyten@gmail.com' },
+40 silly resolved     maintainers: [ [Object] ],
+40 silly resolved     dist:
+40 silly resolved      { shasum: 'a7f722ce7d11afb73696834ade404056bb52f48e',
+40 silly resolved        tarball: 'http://registry.npmjs.org/qr-image/-/qr-image-3.1.0.tgz' },
+40 silly resolved     directories: {},
+40 silly resolved     _resolved: 'https://registry.npmjs.org/qr-image/-/qr-image-3.1.0.tgz',
+40 silly resolved     readme: 'ERROR: No README data found!' } ]
+41 info install qr-image@3.1.0 into /usr/lib
+42 info installOne qr-image@3.1.0
+43 verbose lib/node_modules/qr-image unbuild
+44 verbose tar unpack /home/jo/.npm/qr-image/3.1.0/package.tgz
+45 silly lockFile 96e0c504-ar-usr-lib-node-modules-qr-image tar:///usr/lib/node_modules/qr-image
+46 verbose lock tar:///usr/lib/node_modules/qr-image /home/jo/.npm/96e0c504-ar-usr-lib-node-modules-qr-image.lock
+47 silly lockFile 999e33df-o-npm-qr-image-3-1-0-package-tgz tar:///home/jo/.npm/qr-image/3.1.0/package.tgz
+48 verbose lock tar:///home/jo/.npm/qr-image/3.1.0/package.tgz /home/jo/.npm/999e33df-o-npm-qr-image-3-1-0-package-tgz.lock
+49 silly gunzTarPerm modes [ '775', '664' ]
+50 error Error: EACCES, mkdir '/usr/lib/node_modules/qr-image'
+50 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/qr-image']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/usr/lib/node_modules/qr-image',
+50 error   fstream_type: 'Directory',
+50 error   fstream_path: '/usr/lib/node_modules/qr-image',
+50 error   fstream_class: 'DirWriter',
+50 error   fstream_stack:
+50 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+50 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+50 error      'Object.oncomplete (fs.js:108:15)' ] }
+51 error Please try running this command again as root/Administrator.
+52 error System Linux 3.13.0-52-generic
+53 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "qr-image"
+54 error cwd /home/jo/Documents/dev/quicksmoothie
+55 error node -v v0.10.37
+56 error npm -v 1.4.28
+57 error path /usr/lib/node_modules/qr-image
+58 error fstream_path /usr/lib/node_modules/qr-image
+59 error fstream_type Directory
+60 error fstream_class DirWriter
+61 error code EACCES
+62 error errno 3
+63 error stack Error: EACCES, mkdir '/usr/lib/node_modules/qr-image'
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+64 error fstream_stack Object.oncomplete (fs.js:108:15)
+65 verbose exit [ 3, true ]

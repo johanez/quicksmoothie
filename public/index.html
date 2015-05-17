@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="js/gyro.js"></script>
+    <script src="js/gyro.js"></script>
+    <script type="text/javascript" src="js/smoothie.js"></script>
+    <script type="text/javascript" src="js/plot.js"></script>
+    <title>quicksmoothie</title>
+  </head>
+  <body onload="createTimeline()">
+    
+    <p>gyro Features: <span id="gyrofeatures"></span></p>
+	<span id="gyroreadout"></span>
+
+	<p>Live plot with <a href='http://smoothiecharts.org'> Smoothie Chart </a> </p>
+    <canvas id="chart" width="400" height="100"></canvas>
+
+	<p> Serverlink: </p>
+    <img src='img/server_ip_qr.png'></img>
+
+  </body>
+</html>

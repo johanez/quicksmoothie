@@ -1,0 +1,26 @@
+{
+  "name": "phoneremote",
+  "version": "1.0.0",
+  "description": "Using your smartphone accelerator as a remote control for reveal.js, based on a tutorialzine experiment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "supervisor app.js"
+  },
+  "keywords": [
+    "devicemotion",
+    "tutorialzine",
+    "remote",
+    "control",
+    "mobile",
+    "presentation",
+    "tutorial"
+  ],
+  "author": "johanez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.11.0",
+    "socket.io": "^1.3.2"
+    "qr-image": "*"
+  }
+}

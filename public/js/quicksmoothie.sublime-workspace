@@ -1,0 +1,405 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sock",
+				"sockapp"
+			],
+			[
+				"fo",
+				"formattedName"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "smoothie.js",
+			"settings":
+			{
+				"buffer_size": 32019,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plot.js",
+			"settings":
+			{
+				"buffer_size": 881,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/jo/Documents/dev/quicksmoothie/app.js",
+			"settings":
+			{
+				"buffer_size": 1781,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/jo/Documents/dev/quicksmoothie/public/index.html",
+			"settings":
+			{
+				"buffer_size": 644,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 369.0,
+		"last_filter": "git",
+		"selected_items":
+		[
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"a",
+				"Git: Add Current File"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"ad",
+				"Git: Add Current File"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git: add .",
+				"Git: Add..."
+			],
+			[
+				"git a",
+				"Git: Add..."
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/jo/Documents/dev/remotephone/public/index.html",
+		"/home/jo/Documents/dev/remotephone/public/assets/js/motion.js",
+		"/home/jo/Documents/dev/quicksmoothie/public/index.html",
+		"/home/jo/Documents/dev/quicksmoothie/public/js/plot.js",
+		"/home/jo/Documents/dev/quicksmoothie/public/example1.html",
+		"/home/jo/Documents/dev/remotephone/app.js",
+		"/home/jo/Documents/dev/remotephone/public/assets/js/script.js",
+		"/home/jo/Documents/dev/remotephone/package.json",
+		"/home/jo/Documents/dev/resume/node_modules/jsonresume-theme-paper/index.html",
+		"/home/jo/Documents/dev/resume/node_modules/jsonresume-theme-paper/resume.template",
+		"/home/jo/Documents/dev/resume/node_modules/jsonresume-theme-paper/index.js",
+		"/home/jo/Documents/dev/resume/node_modules/jsonresume-theme-paper/css/print.css",
+		"/home/jo/Documents/dev/resume/node_modules/jsonresume-theme-paper/css/style.css",
+		"/home/jo/Documents/dev/frontend-nanodegree-resume/frontend-nanodegree-resume.sublime-project",
+		"/home/jo/Documents/dev/frontend-nanodegree-resume/js/helper.js",
+		"/home/jo/Documents/dev/resume/node_modules/jsonresume-theme-paper/README.md",
+		"/home/jo/Documents/dev/resume/resume.html",
+		"/home/jo/Downloads/resume.json",
+		"/home/jo/Documents/dev/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/home/jo/Documents/dev/frontend-nanodegree-resume/index.html",
+		"/home/jo/Documents/dev/resume/resume-editor/json/resume.json"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"presentation",
+			"tutorialzine",
+			".next",
+			"your presentation is"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "smoothie.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32019,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "plot.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/jo/Documents/dev/quicksmoothie/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1781,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1555,
+								1555
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 864.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/jo/Documents/dev/quicksmoothie/public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								131,
+								131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 336.0
+	},
+	"pinned_build_system": "",
+	"project": "quicksmoothie.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/dev/remotephone/app.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 337.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
