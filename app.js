@@ -33,7 +33,13 @@ var sockapp = io.on('connection', function (socket) {
 	socket.on('load', function(data){
 
 	});
+    socket.on('step', function(step){
+        console.log('message: ' + JSON.stringify(step));
+        socket.broadcast.emit('step', step);
+  });
 });
+
+
 
 
 console.log('Running on http://localhost:' + port);
