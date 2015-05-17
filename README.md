@@ -1,5 +1,5 @@
 # quicksmoothie
-Plot device motion and gyro live using [smoothie chars](http://smoothiecharts.org/) and [gyro.js](https://github.com/tomgco/gyro.js).
+Plot device motion and gyro live using [smoothie charts](http://smoothiecharts.org/) and [gyro.js](https://github.com/tomgco/gyro.js).
 ## Packages:
 - node.js
 - express 
